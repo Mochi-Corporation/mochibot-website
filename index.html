@@ -205,68 +205,6 @@
         margin-top: 5px;
       }
 
-      footer {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    padding: 20px;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: bold;
-    min-height: 150px; /* Ensures enough height for better centering */
-}
-
-.footer-left {
-    flex: 1;
-    text-align: left;
-    max-width: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
-}
-
-.footer-left h2 {
-    margin: 0;
-    font-size: 2.5rem;
-}
-
-.footer-left .footer-subtext {
-    font-size: 0.9rem;
-    margin-top: 5px;
-}
-
-.footer-right {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px 30px; /* Horizontal and vertical gaps (30px horizontal, 20px vertical) */
-    align-items: center; /* Align text in the middle of the grid cells */
-    justify-content: center;
-    text-align: center; /* Ensure text is centered */
-}
-
-.footer-right a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    display: flex;
-    align-items: center; /* Align text and icon vertically */
-    justify-content: flex-start; /* Align text to the left of the icon */
-}
-
-.footer-right a i {
-    margin-right: 15px; /* Increase space between the icon and text */
-}
-
-.footer-right a:hover {
-    text-decoration: underline;
-}
-
-#copyright {
-    font-size: 0.8rem;
-    margin-top: 10px;
-    text-align: left;
-}
-
 
       .used-by-section {
         margin-top: 40px;
@@ -375,6 +313,66 @@
         padding-top: 80px;
         /* Adjust space for the banner */
       }
+
+      footer {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 20px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    min-height: 150px; /* Ensures enough height for better centering */
+}
+
+.footer-left {
+    flex: 1;
+    text-align: left;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+.footer-left h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.footer-left .footer-subtext {
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    justify-content: flex-start; /* Align text to the left of the icon */
+}
+
+.footer-right a i {
+    margin-right: 15px; /* Increase space between the icon and text */
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}
+
+#copyright {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    text-align: left;
+}
     </style>
   </head>
   <body>
@@ -401,7 +399,7 @@
       <h2>Used by Servers Like:</h2>
       <div class="used-by-servers">
         <div class="server-info">
-          <img src="https://cdn.discordapp.com/icons/1341004348725137450/fa27cc7b83e36cc7782c0c44a464cc6b.webp?size=4096" alt="flux.gg Logo" class="server-logo" />
+          <img src="https://cdn.discordapp.com/icons/1341004348725137450/fa27cc7b83e36cc7782c0c44a464cc6b.webp?size=4096" alt="Flux.gg Logo" class="server-logo" />
           <div class="server-details">
             <strong>flux.gg</strong>
             <br />
@@ -417,23 +415,23 @@
           </div>
         </div>
         <div class="server-info">
-          <img src="https://camo.githubusercontent.com/9509cd54fe24c830c311c3c9ff41738d23069b1ebe690fd48b54e5eee24ef9a0/68747470733a2f2f6d6f636869672e636f6d2f66617669636f6e2e69636f" alt="Mochi Development Logo" class="server-logo" />
+            <img src="https://camo.githubusercontent.com/9509cd54fe24c830c311c3c9ff41738d23069b1ebe690fd48b54e5eee24ef9a0/68747470733a2f2f6d6f636869672e636f6d2f66617669636f6e2e69636f" alt="Mochi Development Logo" class="server-logo" />
+            <div class="server-details">
+              <strong>Mochi</strong>
+              <br />
+              <em>3k+ Members</em>
+            </div>
+          </div>
+        <div class="server-info">
+          <img src="https://cdn.discordapp.com/avatars/1348213781817196564/1f4206d89fe57d7145be617bfcb567ff.webp?size=4096" alt="Neox Hub Logo" class="server-logo" />
           <div class="server-details">
-            <strong>Mochi</strong>
+            <strong>Neox Hub</strong>
             <br />
-            <em>3k+ Members</em>
+            <em>4k+ Members</em>
           </div>
         </div>
         <div class="server-info">
-            <img src="https://cdn.discordapp.com/avatars/1348213781817196564/1f4206d89fe57d7145be617bfcb567ff.webp?size=4096" alt="Neox Hub Logo" class="server-logo" />
-            <div class="server-details">
-              <strong>Neox Hub</strong>
-              <br />
-              <em>4k+ Members</em>
-            </div>
-          </div>
-          <div class="server-info">
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F015%2F286%2F969%2Foriginal%2Fplus-sign-icon-free-png.png&f=1&nofb=1&ipt=2fde69a873f8450e3f2e00303d1d9f4854ab8b08adb16a8c0dbf60c52c0c019c&ipo=images" alt="Your Server Here" class="server-logo" />
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F015%2F286%2F969%2Foriginal%2Fplus-sign-icon-free-png.png&f=1&nofb=1&ipt=2fde69a873f8450e3f2e00303d1d9f4854ab8b08adb16a8c0dbf60c52c0c019c&ipo=images" alt="Mochi Development Logo" class="server-logo" />
             <div class="server-details">
               <strong>Your Server Here</strong>
               <br />
@@ -441,7 +439,6 @@
             </div>
           </div>
       </div>
-  </div>
     </div>
     <div class="commands-list">
       <!-- Utility Commands -->
@@ -613,9 +610,6 @@
           <li>
             <div class="code-block">/urbandictionary</div> - Search the urban dictionary
           </li>
-          <li>
-            <div class="code-block">/say</div> - Have the bot say a message
-          </li>
         </ul>
       </div>
       <!-- Giveaway Commands -->
@@ -640,36 +634,36 @@
         </ul>
       </div>
     </div>
-      <footer>
-        <div class="footer-left">
-            <h2>MOCHI</h2>
-            <p class="footer-subtext">Mochi Game Company</p>
-            <p id="copyright"></p>
-            <p class="footer-subtext">5752 184 St, Surrey, BC V3S 4M9, Canada</p>
-        </div>
-        <div class="footer-right">
-            <div class="footer-links">
-                <a href="mailto:support@mochig.com"><i class="fas fa-briefcase"></i> Jobs</a>
-                <a href="https://mochig.com/team"><i class="fas fa-users"></i> Team</a>
-                <a href="https://services.mochig.com"><i class="fas fa-cogs"></i> Services</a>
+          <footer>
+                <div class="footer-left">
+                    <h2>MOCHI</h2>
+                    <p class="footer-subtext">Mochi Game Company</p>
+                    <p id="copyright"></p>
+                    <p class="footer-subtext">5752 184 St, Surrey, BC V3S 4M9, Canada</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="mailto:support@mochig.com"><i class="fas fa-briefcase"></i> Jobs</a>
+                        <a href="https://mochig.com/team"><i class="fas fa-users"></i> Team</a>
+                        <a href="https://services.mochig.com"><i class="fas fa-cogs"></i> Services</a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="mailto:support@mochig.com"><i class="fas fa-envelope"></i> Contact</a>
+                        <a href="https://discord.gg/K7C37yPEUv"><i class="fab fa-discord"></i> Discord</a>
+                        <a href="https://tiktok.com/@mochiwebsite"><i class="fab fa-tiktok"></i> TikTok</a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://mochig.com/other/privacy"><i class="fas fa-shield-alt"></i> Privacy Policy</a>
+                        <a href="https://mochig.com/other/terms"><i class="fas fa-file-contract"></i> Terms of Service</a>
+                        <a href="mailto:support@mochig.com"><i class="fa fa-gavel"></i> DMCA Requests</a>
+                    </div>
             </div>
-            <div class="footer-social">
-                <a href="mailto:support@mochig.com"><i class="fas fa-envelope"></i> Contact</a>
-                <a href="https://discord.gg/K7C37yPEUv"><i class="fab fa-discord"></i> Discord</a>
-                <a href="https://tiktok.com/@mochiwebsite"><i class="fab fa-tiktok"></i> TikTok</a>
-            </div>
-            <div class="footer-social">
-                <a href="https://mochig.com/other/privacy"><i class="fas fa-shield-alt"></i> Privacy Policy</a>
-                <a href="https://mochig.com/other/terms"><i class="fas fa-file-contract"></i> Terms of Service</a>
-                <a href="mailto:support@mochig.com"><i class="fa fa-gavel"></i> DMCA Requests</a>
-            </div>
-        </div>
-    
-        <script>
-            // Dynamically update the copyright year
-            document.getElementById("copyright").innerText = `© Copyright 2023-${new Date().getFullYear()}`;
-        </script>
-    </footer>
+            
+                <script>
+                    // Dynamically update the copyright year
+                    document.getElementById("copyright").innerText = `© Copyright 2023-${new Date().getFullYear()}`;
+                </script>
+            </footer>
       <script>
         // Expandable command items
         document.querySelectorAll('.command-item').forEach(item => {
@@ -707,11 +701,11 @@
             else if (statusText === "Offline") statusColor = "red";
             // Update the status on the page
             document.getElementById("bot-status").innerHTML = `Status: 
-                  <span style="color:${statusColor}; font-size: 18px;">●</span> ${statusText}`;
+                                    <span style="color:${statusColor}; font-size: 18px;">●</span> ${statusText}`;
           } catch (error) {
             console.error("Error fetching bot status:", error);
             document.getElementById("bot-status").innerHTML = `Status: 
-                  <span style="color:red; font-size: 18px;">●</span> Error`;
+                                    <span style="color:red; font-size: 18px;">●</span> Error`;
           }
         }
         updateBotStatus();
