@@ -19,9 +19,8 @@
 
 ## Credits
 
-This software uses the following open source packages:
 
-- [Py-cord](https://pycord.dev/)
+- Development: [xsbd](https://github.com/xs76)
 
 
 ## License
