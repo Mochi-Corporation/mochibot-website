@@ -3,11 +3,11 @@
   <br>
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://cdn.discordapp.com/avatars/1234731012727115816/4c61faeb31af8ecace44af8f61df985d.webp?size=4096" alt="mochi bot" width="200"></a>
   <br>
-  Markdownify
+  mochi bot
   <br>
 </h1>
 
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">A simple discord bot (website) <a href="http://bot.mochig.com" target="_blank">Electron</a>.</h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
