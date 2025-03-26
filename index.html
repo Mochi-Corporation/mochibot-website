@@ -74,14 +74,12 @@
         background-color: grey;
         margin-bottom: 10px;
         overflow: hidden;
-        /* Ensures the image stays within the circle */
       }
 
       .avatar-img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        /* Ensures the image fits the circle without distortion */
       }
 
       @keyframes bounce {
@@ -260,8 +258,6 @@
 
       .warning-banner {
         background-color: #1299f3;
-                /* Yellow Colour Code: #e67e22, Green Colour Code: */
-        /* Bright yellow/orange color for visibility */
         color: white;
         padding: 10px 20px;
         font-size: 1.2rem;
@@ -290,12 +286,10 @@
         opacity: 0;
         transform: translateY(-100%);
         margin-top: -100px;
-        /* Move up when closing */
       }
 
       .warning-banner button {
         background-color: #22b8e6;
-        /* Yellow Colour Code: #e67e22, Green Colour Code: */
         color: white;
         border: none;
         padding: 5px 10px;
@@ -311,18 +305,17 @@
 
       .main-content {
         padding-top: 80px;
-        /* Adjust space for the banner */
       }
 
       footer {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center; 
+    align-items: center; 
     padding: 20px;
     color: #fff;
     font-size: 1rem;
     font-weight: bold;
-    min-height: 150px; /* Ensures enough height for better centering */
+    min-height: 150px; 
 }
 
 .footer-left {
@@ -331,7 +324,7 @@
     max-width: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
+    justify-content: center;
 }
 
 .footer-left h2 {
@@ -347,10 +340,10 @@
 .footer-right {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px 30px; /* Horizontal and vertical gaps (30px horizontal, 20px vertical) */
-    align-items: center; /* Align text in the middle of the grid cells */
+    gap: 30px 30px; 
+    align-items: center; 
     justify-content: center;
-    text-align: center; /* Ensure text is centered */
+    text-align: center; 
 }
 
 .footer-right a {
@@ -358,12 +351,12 @@
     color: white;
     font-size: 1.2rem;
     display: flex;
-    align-items: center; /* Align text and icon vertically */
-    justify-content: flex-start; /* Align text to the left of the icon */
+    align-items: center; 
+    justify-content: flex-start; 
 }
 
 .footer-right a i {
-    margin-right: 15px; /* Increase space between the icon and text */
+    margin-right: 15px; 
 }
 
 .footer-right a:hover {
@@ -381,7 +374,7 @@
   <body>
     <div class="warning-banner">
       <!-- <strong>Notification:</strong> We would love your suggestions! DM me on discord: xsbd to suggest. <button onclick="closeBanner()">Dismiss</button> -->
-      <strong>Update:</strong> Version 2.2.5 Released. Verification system added!<br>Version 2.2.4 Released. Chat trigger system added! & Removed bot requiring admin permissions.<button onclick="closeBanner()">Dismiss</button>
+      <strong>Update:</strong> Version 2.2.6 Released! Added /steam and fixed some bugs!<button onclick="closeBanner()">Dismiss</button>
     </div>
     <div class="profile-section">
       <a href="https://bot.mochig.com" target="_blank">
@@ -425,14 +418,7 @@
               <em>3k+ Members</em>
             </div>
           </div>
-        <div class="server-info">
-          <img src="https://cdn.discordapp.com/avatars/1348213781817196564/1f4206d89fe57d7145be617bfcb567ff.webp?size=4096" alt="Neox Hub Logo" class="server-logo" />
-          <div class="server-details">
-            <strong>Neox Hub</strong>
-            <br />
-            <em>4k+ Members</em>
-          </div>
-        </div>
+
         <div class="server-info">
             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F015%2F286%2F969%2Foriginal%2Fplus-sign-icon-free-png.png&f=1&nofb=1&ipt=2fde69a873f8450e3f2e00303d1d9f4854ab8b08adb16a8c0dbf60c52c0c019c&ipo=images" alt="Mochi Development Logo" class="server-logo" />
             <div class="server-details">
