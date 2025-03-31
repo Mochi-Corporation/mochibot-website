@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page not found</title>
+    <link rel="icon" href="https://i.mhi.im/i/40ff9e51-faa6-4883-861e-26e3fbab4f29.jpg" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Apply gradient animation and styling to the body */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(45deg, #000, #1e90ff, #000, #1e90ff);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Footer CSS */
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            min-height: 150px;
+        }
+
+        .footer-left {
+            flex: 1;
+            text-align: left;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .footer-left h2 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 600; /* Bold font */
+        }
+
+        .footer-left .footer-subtext {
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+
+        .footer-right {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px 30px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .footer-right a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .footer-right a i {
+            margin-right: 15px;
+        }
+
+        .footer-right a:hover {
+            text-decoration: underline;
+        }
+
+        #copyright {
+            font-size: 0.8rem;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        /* Main content */
+        .content {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Main content of the page -->
+    <div class="content">
+        <h1>404</h1>
+        <h1>page not found</h1>
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-left">
+            <h2>MOCHI</h2>
+            <p class="footer-subtext">Mochi Studios</p>
+            <p id="copyright"></p>
+            <p class="footer-subtext">5752 184 St, Surrey, BC V3S 4M9, Canada</p>
+        </div>
+        <div class="footer-right">
+            <div class="footer-links">
+                <a href="mailto:support@mochig.com"><i class="fas fa-briefcase"></i> Jobs</a>
+                <a href="https://github.com/mochi-corporation"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://services.mochig.com"><i class="fas fa-cogs"></i> Services</a>
+            </div>
+            <div class="footer-social">
+                <a href="mailto:support@mochig.com"><i class="fas fa-envelope"></i> Contact</a>
+                <a href="https://discord.gg/K7C37yPEUv"><i class="fab fa-discord"></i> Discord</a>
+                <a href="https://tiktok.com/@mochiwebsite"><i class="fab fa-tiktok"></i> TikTok</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://mochig.com/other/privacy"><i class="fas fa-shield-alt"></i> Privacy Policy</a>
+                <a href="https://mochig.com/other/terms"><i class="fas fa-file-contract"></i> Terms of Service</a>
+                <a href="mailto:support@mochig.com"><i class="fa fa-gavel"></i> DMCA Requests</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Dynamically update the copyright year
+        document.getElementById("copyright").innerText = `© Copyright 2023-${new Date().getFullYear()}`;
+    </script>
+
+</body>
+</html>
+
+
